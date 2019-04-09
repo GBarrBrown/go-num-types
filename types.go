@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	printBools()
+	printString()
 }
 
 func printBools() {
@@ -12,4 +13,10 @@ func printBools() {
 	var isFalse bool = false
 	fmt.Println(isTrue)
 	fmt.Println(isFalse)
+}
+
+func printString() {
+	fmt.Println("-- String -- ")
+	var stringOne string = "I'm a string type"
+	fmt.Println(stringOne)
 }
