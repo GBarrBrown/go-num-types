@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	printBools()
 	printString()
+	printInts()
 }
 
 func printBools() {
@@ -19,4 +20,10 @@ func printString() {
 	fmt.Println("-- String -- ")
 	var stringOne string = "I'm a string type"
 	fmt.Println(stringOne)
+}
+
+func printInts() {
+	fmt.Println("-- Integer --")
+	var isInt int = 6
+	fmt.Println("int 6: ",isInt)
 }
